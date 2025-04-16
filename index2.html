@@ -5,7 +5,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Dispositivos de Interconexión</title>
 </head>
-<body background="image/f3.jpg" text="purple">
+<body background="image/fondo2.png" text="2C2C2C" >
+	<font face="Sans-serif">
+	<ul>
+		<li><a href="#con">Concepto</a></li>
+		<li><a href="#tipos">Tipos</a></li>
+		<li><a href="#proto">Protocolos de red</a></li>
+	</ul>
 	<h1 align="center">Dispositivos de Interconexión</h1>
 	<table width="80%" align="center">
 		<tr>
@@ -13,16 +19,16 @@
 				<img src="image/dispin.jpg" height="100%">
 			</td>
 			<td>
-				<p align="justify"><strong>¿Qué es un dispositivo de interconexión?</strong><br>
+				<p align="justify"><strong>¿Qué es un dispositivo de interconexión?</strong><br><a name="con"></a>
 					Un dispositivo de interconexión de redes es un término ampliamente utilizado para cualquier hardware que conecte diferentes recursos de red. Los dispositivos clave que comprenden una red son conmutadores, enrutadores, brigde (puentes), repetidores y puertas de enlace.
 			</td>
 		</tr>
 	</table>
-	<table width="80%" align="center">
+	<table width="80%" align="center" border="1">
 		<tr>
 			<td>
-				<strong>Hub</strong>
-				<p align="justify"><br>Un concentrador, también conocido como hub, es un dispositivo de red que permite centralizar diferentes nodos de una red de computadoras. Su función principal, establecer una conexión entre un número indefinido de computadoras y permitir el intercambio de datos.
+				<center><strong>Hub</strong><a name="tipos"></a></center>
+				<p align="justify"><br>Un concentrador, también conocido como hub, es un dispositivo de red que permite centralizar diferentes nodos de una red de computadoras. Su función principal, establecer una conexión entre un número indefinido de computadoras y permitir el intercambio de datos. Permite retrasmitir la información que le mandaron a cada uno de los dispositivos, la máquina que lo necesita lo toma y las demás lo ignoran.
 			</td>
 			<td>
 				<img src="image/HUB.jpg" width="150">
@@ -30,8 +36,8 @@
 		</tr>
 		<tr>
 			<td>
-				<strong>Switch</strong>
-				<p align="justify"><br>Un switch, también conocido como conmutador, es un dispositivo que conecta distintos equipos en una red. Permite que los dispositivos se comuniquen entre sí y compartan información. Su conmutador de red se conecta al enrutador a través de uno de los puertos del enrutador , lo que amplía la cantidad de dispositivos en la red de su pequeña oficina, como computadoras de escritorio, impresoras, portátiles, etc. que tienen una conexión cableada a Internet.(switch de capa 2)
+				<center><strong>Switch</strong></center>
+				<p align="justify"><br>Un switch, también conocido como conmutador, es un dispositivo que conecta distintos equipos en una red. Permite que los dispositivos se comuniquen entre sí y compartan información. Su conmutador de red se conecta al enrutador a través de uno de los puertos del enrutador , lo que amplía la cantidad de dispositivos en la red de su pequeña oficina, como computadoras de escritorio, impresoras, portátiles, etc. que tienen una conexión cableada a Internet.(switch de capa 2). Son los más eficiente.0
 			</td>
 			<td>
 				<img src="image/switch.jpg" width="150">
@@ -39,7 +45,7 @@
 		</tr>
 		<tr>
 			<td>
-				<strong>Routers</strong>
+				<center><strong>Routers</strong></center>
 				<p align="justify"><br>Un router es un dispositivo que proporciona Wi-Fi y que generalmente está conectado a un módem. Envía información desde Internet a los dispositivos personales, como computadoras, teléfonos o tablets. Los dispositivos conectados a Internet de tu casa conforman la red de área local (LAN). (switch de capa 3)
 			</td>
 			<td>
@@ -48,23 +54,123 @@
 		</tr>
 		<tr>
 			<td>
-				<strong>Bridge</strong>
-				<p align="justify"><br>Un puente de red es un dispositivo o software que conecta y filtra el tráfico entre segmentos de red. Los puentes permiten que los segmentos de red se comuniquen como si fueran uno solo. Sirven para enlazar directamente dos redes físicamente cercanas. Se conectan en parejas enlazando dos o más redes locales y formando una red de área extensa (WAN) a través de líneas telefónicas.
+				<center><strong>Bridge</strong></center>
+				<p align="justify"><br>Un puente de red es un dispositivo o software que conecta y filtra el tráfico entre segmentos de red. Los puentes permiten que los segmentos de red se comuniquen como si fueran uno solo. Sirven para enlazar directamente dos redes físicamente cercanas. Se conectan en parejas enlazando dos o más redes locales y formando una red de área extensa (WAN) a través de líneas telefónicas. Trabaja en la capa número 2, la de enlace. Este conoce la MAC de origen y destino, por lo que es muy eficiente.
 			<td>
 				<img src="image/puente.jpg" width="150">
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<strong>Repetidor</strong>
-				<br>En transmisión de señales, se trata de es un dispositivo que refuerza las señales amplificándolas o regenerándolas. Esta tecnología se utiliza habitualmente en telecomunicaciones y redes informáticas para ampliar el alcance y superar la degradación de la señal.
+				<center><strong>Repetidor</strong></center>
+				<br>En transmisión de señales, se trata de es un dispositivo que refuerza las señales amplificándolas o regenerándolas. Esta tecnología se utiliza habitualmente en telecomunicaciones y redes informáticas para ampliar el alcance y superar la degradación de la señal. (Extiende la señal)
 			<td>
 				<img src="image/repetidor.jpg" width="150">
 			</td>
 		</tr>
 	</table>
-<center><iframe width="400" height="250" src="https://www.youtube.com/embed/-QTNJws7PRg?si=bub_JqZoFUn7Bhes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
-	
 
+	<h1 align="center">Protocolos de red</h1><a name="proto"></a>
+
+	<table width="90%" align="center" bgcolor="ddedfc">
+		<tr>
+			<td bgcolor="a0c8ed">
+				<center><strong><h3>Capas del modelo OSI</h3></strong><a name="tipos"></a>				
+			</td>
+			<td>
+
+				<center><img src="image/osi.jpg" width="500"></center>
+			</td>
+			<td><font color="ddedfc">0000
+		</tr>
+		<tr>
+			<td bgcolor="a0c8ed">
+				<center><strong>7. Capa de Aplicación</strong>
+			<td width="80%">
+				<p align="justify"><br>  Es la capa que interactúa directamente con los usuarios y las aplicaciones, y que permite la comunicación entre los programas de aplicación. La capa de aplicación del remitente transfiere la comunicación de datos a la capa inferior. Cada capa agrega sus propios encabezados y direccionamientos a los datos. Los datos descienden por las capas hasta que se transmiten a través del medio físico. La capa de aplicación también permite: Compartir recursos, Acceder remotamente a archivos, Gestionar la red, Conectar las aplicaciones de software y las experiencias de usuario.  
+				<br><strong>Protocolos:</strong>
+				<br>POP: (Post Office Protocol) es un estándar de Internet que permite a los clientes de correo electrónico acceder a los correos almacenados desde un servidor remoto. Solicita la lista de mensajes y una vez que el servidor se la envía, las descarga para despues borrarlas.
+				<br>DNS: (Domain Name System) es un conjunto de reglas que permite a los usuarios de internet usar nombres de dominio en lugar de direcciones IP.
+				<br>HTTP: (Hypertext Transfer Protocol) es el protocolo fundamental que permite la comunicación entre un cliente (como un navegador web) y un servidor web para la transferencia de información en la web, utilizando un sistema de solicitud-respuesta.
+				<br>HTTPS, SMTP
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor="a0c8ed">
+				<center><strong>6. Capa de Presentación</strong>
+			<td>
+				<p align="justify"><br>  Es la capa que se encarga de traducir, cifrar y comprimir los datos entre el emisor y el receptor. La capa de presentación traduce los datos entre la capa de aplicación y el formato de red, comprime los datos usando algoritmos que buscan patrones de bits repetidos y los reemplazan con un token, cifra los datos si la capa de aplicación lo solicita y envía el mensaje a la capa de sesión, que abre una sesión para la comunicación. 
+				<br><strong>Protocolos:</strong>
+				<br>ASCII:  protocolo de comunicación que utiliza caracteres ASCII para enviar comandos y recibir respuestas entre una computadora y un dispositivo. (codigo ASCII es un código que permite a las computadoras interpretar y mostrar letras, números y símbolos asignando un valor numérico a cada carácter.)
+				<br>SMTP: El protocolo simple de transferencia de correo es un estándar técnico que permite enviar y recibir correos electrónicos por internet. Es un protocolo de comunicación que utilizan los servidores de correo y los clientes de correo electrónico. 
+				<br>SOAP:  (Protocolo Simple de Acceso a Objetos) es un protocolo de mensajería que permite la comunicación entre aplicaciones distribuidas, basado en XML que define tres partes en todos los mensajes: sobre, cabecera y cuerpo.
+				<br>JPEG, MPEG, PNG, HTTP
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor="a0c8ed">
+				<center><strong>5. Capa de Sesión</strong>
+			<td>
+				<p align="justify"><br> Se encarga de gestionar las comunicaciones entre aplicaciones de dos sistemas. La capa de sesión establece una conexión entre dos sistemas, denominada sesión, sincroniza el intercambio de datos (en caso de interrupción, la capa de sesión retoma la transmisión de datos desde su último punto de sincronización) y mantiene la conexión hasta que finalice la transferencia.
+				<br><strong>Protocolos:</strong>
+				<br>SIP: El Protocolo de Iniciación de Sesión es un protocolo de señalización que se utiliza para establecer, gestionar y finalizar sesiones multimedia, como llamadas de voz, videoconferencias y mensajería instantánea.
+				<br>RTP: El Protocolo de Transporte en Tiempo Real es un protocolo de red que permite transmitir audio y video en tiempo real. Se utiliza en sistemas de comunicación y entretenimiento, como telefonía, videoconferencias, televisión y servicios web. 
+				<br>RPC:  (Remote Procedure Call)  protocolo de paso de mensajes que implementa otros protocolos no RPC como, por ejemplo, el proceso por lotes y la difusión de llamadas remotas. El protocolo RPC también admite procedimientos de devolución de llamada y la subrutina select en el lado del servidor.
+				<br>TCP
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor="a0c8ed">
+				<center><strong>4. Capa de Transporte</strong>
+			<td>
+				<p align="justify"><br>Asegura una entrega de datos confiable y ordenada entre aplicaciones en dispositivos finales. La capa de transporte recibe los datos de la capa de sesión, luego decide cómo dividir los datos en segmentos, se comunica con el dispositivo de origen para volver a transmitir los datos que se hayan perdido y envía los datos a la capa de red.
+				<br><strong>Protocolos:</strong>
+				<br>TCP: El Protocolo de Control de Transmisión es un estándar de comunicación que permite a los dispositivos de una red intercambiar datos de manera confiable. Es un protocolo fundamental de internet que se utiliza para entregar datos en redes digitales. 
+				<br>UDP: El Protocolo de Datagramas de Usuario es un protocolo de comunicación que permite enviar datos por internet de manera rápida y sin necesidad de establecer una conexión. Se utiliza para aplicaciones que son sensibles al tiempo, como la reproducción de videos, las búsquedas DNS y los juegos. 
+				<br>SCTP: El Protocolo de Transmisión de Control de Flujo es un protocolo de comunicaciones que permite enviar datos de manera fiable y secuencial.
+				<br>SSL, TLS
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor="a0c8ed">
+				<center><strong>3. Capa de Red</strong>
+			<td>
+				<p align="justify"><br>Es responsable de direccionar y enrutar paquetes de datos entre diferentes redes. Se encarga de recibir segmentos de datos de la capa de transporte, encapsular los segmentos de datos en paquetes IP, entregar los paquetes a la capa de enlace de datos, comprobar el funcionamiento de servidores en otras redes, gestionar el direccionamiennto lógimo mediante direcciones IP y gestionar el reenvío de paquetes.
+				<br><strong>Protocolos:</strong>
+				<br>IP: El Protocolo de Internet es un conjunto de reglas, para enrutar y direccionar paquetes de datos para que puedan viajar a través de las redes y llegar al destino correcto. 
+				<br>ARP: (Address Resolution Protocol, o Protocolo de Resolución de Direcciones) es un protocolo de red que asocia direcciones IP a direcciones MAC. Es fundamental para que las redes funcionen, ya que permite que los dispositivos se comuniquen entre sí. 
+				<br>ICMP: El Protocolo de Mensajes de Control de Internet es un conjunto de reglas que se usan para comunicar errores de transmisión de datos en una red. Se utiliza en dispositivos de red como los enrutadores. 
+				<br>IPsec, IGMP, OSPF
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor="a0c8ed">
+				<center><strong>2. Capa de Enlace de datos</strong>
+			</td>
+			<td>
+				<p align="justify"><br>Es responsable de la transferencia fiable de información a través de un circuito de transmisión de datos. Recibe peticiones de la capa de red, canvierte los datos en tramas, transmite las tramas a través del medio físico y obtiene la dirección e instrucciones de enrutamiento para preparar los datos para su recorrido por la red.
+				<br><strong>Protocolos:</strong>
+				<br>MAC/LLC: Son protocolos de la capa de enlace de datos. El protocolo MAC  (control de acceso al medio) se encarga de los aspectos físicos, mientras que el protocolo LLC (El protocolo de Control de Enlace Lógico) facilita la comunicación entre la capa de red y la capa de enlace de datos
+				<br>VALN: es una tecnología que permite segmentar una red física en redes virtuales lógicas. Esto permite administrar la red de forma más eficiente y mejorar la seguridad. 
+				<br>ATM: (Asynchronous Transfer Mode) es un protocolo de comunicación que permite transmitir datos, voz y video. Se utiliza en redes de área amplia (WAN) y es conocido por su alta calidad de servicio.
+				<br>HDP, HDCL, PPP, Q.921 
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor="a0c8ed">
+				<center><strong>1. Capa Física</strong>
+			</td>
+			<td>
+				<p align="justify"><br>La capa física del modelo OSI es la capa más baja del modelo y se encarga de la transmisión de datos a través de medios físicos. Es la capa que define cómo se establecen, mantienen y terminan las conexiones físicas entre los dispositivos, además del sentido y velocidad de transmisión y la función de cada línea. Esta capa establece las funciones físicas a la red, representa los bits en señales predecibles (eléctricas, ópticas o de radio), modula y sincroniza bits y trasmite datos binarios sin procesar a través del medio físico.
+				<br><strong>Protocolos:</strong>
+				<br>RS-232, RJ45, V.34,100BASE-TX, SDH, DSL, 802.11
+			</td>
+		</tr>		
+	</table>	
+
+<p><center><iframe width="400" height="250" src="https://www.youtube.com/embed/-QTNJws7PRg?si=bub_JqZoFUn7Bhes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+	
+<h6 align="right">Elaborado por  <a href="https://sites.google.com/view/ticsmerci/p%C3%A1gina-principal" target="new">Mer</a></h6>
+</font>
 </body>
 </html>
